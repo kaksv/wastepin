@@ -1,0 +1,2 @@
+
+1d0c6231689fda729acbe78e7487136b8faec875	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@jridgewell%2fremapping","integrity":null,"time":1780735522742,"size":"0","metadata":{"time":1780735522742,"url":"http://registry.npmjs.org/@jridgewell%2fremapping","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:23 GMT","location":"https://registry.npmjs.org/@jridgewell%2Fremapping"},"options":{"compress":true},"status":301}}

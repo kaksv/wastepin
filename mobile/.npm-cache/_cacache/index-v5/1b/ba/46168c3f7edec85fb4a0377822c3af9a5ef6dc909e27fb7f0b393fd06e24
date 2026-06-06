@@ -1,0 +1,2 @@
+
+1d7af77e15d3ef59d87060ccb2df94c37fe6ec13	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/memoize-one","integrity":null,"time":1780735497057,"size":"0","metadata":{"time":1780735497057,"url":"http://registry.npmjs.org/memoize-one","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:44:57 GMT","location":"https://registry.npmjs.org/memoize-one"},"options":{"compress":true},"status":301}}

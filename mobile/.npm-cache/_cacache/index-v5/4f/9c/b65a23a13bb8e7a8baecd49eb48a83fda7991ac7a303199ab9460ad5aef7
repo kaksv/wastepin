@@ -1,0 +1,2 @@
+
+65aaa0d919ab3ae47453b081749ffadcb87ad504	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/jimp-compact","integrity":null,"time":1780735519635,"size":"0","metadata":{"time":1780735519635,"url":"http://registry.npmjs.org/jimp-compact","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:20 GMT","location":"https://registry.npmjs.org/jimp-compact"},"options":{"compress":true},"status":301}}

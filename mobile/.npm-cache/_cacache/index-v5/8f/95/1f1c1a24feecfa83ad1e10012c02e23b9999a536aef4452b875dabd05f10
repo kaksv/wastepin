@@ -1,0 +1,2 @@
+
+61a826beaef1c43881aa9abbbddf40e9b47e680c	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/uuid/-/uuid-7.0.3.tgz","integrity":null,"time":1780735602589,"size":"0","metadata":{"time":1780735602589,"url":"http://registry.npmjs.org/uuid/-/uuid-7.0.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:42 GMT","location":"https://registry.npmjs.org/uuid/-/uuid-7.0.3.tgz"},"options":{"compress":true},"status":301}}

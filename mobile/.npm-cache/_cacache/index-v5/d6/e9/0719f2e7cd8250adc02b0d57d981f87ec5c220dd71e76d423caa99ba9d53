@@ -1,0 +1,2 @@
+
+d56fe158ea631a9120fca0b3281be0827bae0bf3	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/jsc-android","integrity":null,"time":1780735497042,"size":"0","metadata":{"time":1780735497042,"url":"http://registry.npmjs.org/jsc-android","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:44:57 GMT","location":"https://registry.npmjs.org/jsc-android"},"options":{"compress":true},"status":301}}

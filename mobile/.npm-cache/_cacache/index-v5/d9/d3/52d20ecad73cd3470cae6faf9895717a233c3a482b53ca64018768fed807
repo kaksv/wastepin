@@ -1,0 +1,2 @@
+
+68f402ef7719404cd12d9ba9139fecdc8b19c7a2	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/metro-symbolicate","integrity":null,"time":1780735561965,"size":"0","metadata":{"time":1780735561965,"url":"http://registry.npmjs.org/metro-symbolicate","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:02 GMT","location":"https://registry.npmjs.org/metro-symbolicate"},"options":{"compress":true},"status":301}}

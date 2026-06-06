@@ -1,0 +1,2 @@
+
+d82d495bf86ac3bfb571d2263684f865a76bc152	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/json-parse-better-errors","integrity":null,"time":1780735573025,"size":"0","metadata":{"time":1780735573025,"url":"http://registry.npmjs.org/json-parse-better-errors","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:13 GMT","location":"https://registry.npmjs.org/json-parse-better-errors"},"options":{"compress":true},"status":301}}

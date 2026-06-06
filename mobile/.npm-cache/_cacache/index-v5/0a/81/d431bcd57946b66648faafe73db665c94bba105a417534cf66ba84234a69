@@ -1,0 +1,2 @@
+
+f872af3425d88c5aef5383cde3fddcfef9c24e1f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/sucrase","integrity":null,"time":1780735506793,"size":"0","metadata":{"time":1780735506793,"url":"http://registry.npmjs.org/sucrase","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:07 GMT","location":"https://registry.npmjs.org/sucrase"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+5231155f0c3249d5ab3b4bfb32b119be80535528	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@sideway%2fformula","integrity":null,"time":1780735565552,"size":"0","metadata":{"time":1780735565552,"url":"http://registry.npmjs.org/@sideway%2fformula","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:05 GMT","location":"https://registry.npmjs.org/@sideway%2Fformula"},"options":{"compress":true},"status":301}}

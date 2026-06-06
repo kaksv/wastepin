@@ -1,0 +1,2 @@
+
+c05dac3378d1634f6ed8b5ebdfffff98d4d9c896	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/strnum","integrity":null,"time":1780735569738,"size":"0","metadata":{"time":1780735569738,"url":"http://registry.npmjs.org/strnum","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:10 GMT","location":"https://registry.npmjs.org/strnum"},"options":{"compress":true},"status":301}}

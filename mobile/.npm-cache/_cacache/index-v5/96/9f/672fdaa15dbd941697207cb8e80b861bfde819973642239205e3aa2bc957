@@ -1,0 +1,2 @@
+
+cd32b3814bbb9080b7d2da0df73603d12f4a0d32	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/balanced-match","integrity":null,"time":1780735556016,"size":"0","metadata":{"time":1780735556016,"url":"http://registry.npmjs.org/balanced-match","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:56 GMT","location":"https://registry.npmjs.org/balanced-match"},"options":{"compress":true},"status":301}}

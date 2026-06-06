@@ -1,0 +1,2 @@
+
+e5ebfac6495efa04eba4b48b3b555e3f59364ab2	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/to-regex-range","integrity":null,"time":1780735555887,"size":"0","metadata":{"time":1780735555886,"url":"http://registry.npmjs.org/to-regex-range","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:56 GMT","location":"https://registry.npmjs.org/to-regex-range"},"options":{"compress":true},"status":301}}

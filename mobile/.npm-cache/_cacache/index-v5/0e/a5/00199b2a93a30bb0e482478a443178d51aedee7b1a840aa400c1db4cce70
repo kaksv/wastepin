@@ -1,0 +1,2 @@
+
+f0d8b880a1f473c722ec5550761c0050c416f4a6	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@expo/cli/-/cli-0.7.3.tgz","integrity":null,"time":1780735601388,"size":"0","metadata":{"time":1780735601388,"url":"http://registry.npmjs.org/@expo/cli/-/cli-0.7.3.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:41 GMT","location":"https://registry.npmjs.org/@expo/cli/-/cli-0.7.3.tgz"},"options":{"compress":true},"status":301}}

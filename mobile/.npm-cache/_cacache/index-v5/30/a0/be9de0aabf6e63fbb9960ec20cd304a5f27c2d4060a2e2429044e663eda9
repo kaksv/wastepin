@@ -1,0 +1,2 @@
+
+5bc80b605cdfa1c9161e4ac34b887102f7cb3961	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@jest%2fenvironment","integrity":null,"time":1780735561662,"size":"0","metadata":{"time":1780735561662,"url":"http://registry.npmjs.org/@jest%2fenvironment","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:02 GMT","location":"https://registry.npmjs.org/@jest%2Fenvironment"},"options":{"compress":true},"status":301}}

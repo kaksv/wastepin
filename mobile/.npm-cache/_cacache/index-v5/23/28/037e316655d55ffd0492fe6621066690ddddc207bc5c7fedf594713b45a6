@@ -1,0 +1,2 @@
+
+bd1546bac0206e0626149a292b33790d44bf2aaf	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/clean-stack","integrity":null,"time":1780735557488,"size":"0","metadata":{"time":1780735557487,"url":"http://registry.npmjs.org/clean-stack","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:57 GMT","location":"https://registry.npmjs.org/clean-stack"},"options":{"compress":true},"status":301}}

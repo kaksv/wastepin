@@ -1,0 +1,2 @@
+
+c22199d15a3f4484e421253ae5df9be6885a0eb8	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/tslib","integrity":null,"time":1780735513272,"size":"0","metadata":{"time":1780735513272,"url":"http://registry.npmjs.org/tslib","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:13 GMT","location":"https://registry.npmjs.org/tslib"},"options":{"compress":true},"status":301}}

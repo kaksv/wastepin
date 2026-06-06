@@ -1,0 +1,2 @@
+
+642cbc86980c1fe3f4b5052f36da08928bc742b9	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/buffer-fill","integrity":null,"time":1780735553944,"size":"0","metadata":{"time":1780735553944,"url":"http://registry.npmjs.org/buffer-fill","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:54 GMT","location":"https://registry.npmjs.org/buffer-fill"},"options":{"compress":true},"status":301}}

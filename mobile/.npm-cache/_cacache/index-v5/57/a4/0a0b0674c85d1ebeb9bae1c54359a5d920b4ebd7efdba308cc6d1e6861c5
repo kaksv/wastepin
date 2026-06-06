@@ -1,0 +1,2 @@
+
+b768d2a9ee9526d50584961940060099f6a07e64	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-interactive","integrity":null,"time":1780735567135,"size":"0","metadata":{"time":1780735567135,"url":"http://registry.npmjs.org/is-interactive","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:07 GMT","location":"https://registry.npmjs.org/is-interactive"},"options":{"compress":true},"status":301}}

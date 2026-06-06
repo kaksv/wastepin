@@ -1,0 +1,2 @@
+
+18e87f0fb89e444b5b176330a8c8456339a9f17f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@sinclair%2ftypebox","integrity":null,"time":1780735595628,"size":"0","metadata":{"time":1780735595628,"url":"http://registry.npmjs.org/@sinclair%2ftypebox","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:36 GMT","location":"https://registry.npmjs.org/@sinclair%2Ftypebox"},"options":{"compress":true},"status":301}}

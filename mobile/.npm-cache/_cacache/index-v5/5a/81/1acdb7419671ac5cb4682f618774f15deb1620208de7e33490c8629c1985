@@ -1,0 +1,2 @@
+
+29357c7f4c16ea83d2d03c92a18fb5564f339179	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/compressible","integrity":null,"time":1780735571128,"size":"0","metadata":{"time":1780735571128,"url":"http://registry.npmjs.org/compressible","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:11 GMT","location":"https://registry.npmjs.org/compressible"},"options":{"compress":true},"status":301}}

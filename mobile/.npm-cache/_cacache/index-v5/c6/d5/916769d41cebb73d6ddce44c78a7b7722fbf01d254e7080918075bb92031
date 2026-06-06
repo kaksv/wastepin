@@ -1,0 +1,2 @@
+
+47612ed380ccd795a9b8f691fa0a0b1609575f33	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/end-of-stream","integrity":null,"time":1780735552501,"size":"0","metadata":{"time":1780735552500,"url":"http://registry.npmjs.org/end-of-stream","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:52 GMT","location":"https://registry.npmjs.org/end-of-stream"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+c0568b3f741abc935d27b2c9e9eb8d51fa80ad60	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/slice-ansi","integrity":null,"time":1780735578008,"size":"0","metadata":{"time":1780735578008,"url":"http://registry.npmjs.org/slice-ansi","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:18 GMT","location":"https://registry.npmjs.org/slice-ansi"},"options":{"compress":true},"status":301}}

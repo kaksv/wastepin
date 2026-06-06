@@ -1,0 +1,2 @@
+
+e4d0b76f18ee43b97a54b83986a80c81fce657de	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/ts-interface-checker","integrity":null,"time":1780735516003,"size":"0","metadata":{"time":1780735516003,"url":"http://registry.npmjs.org/ts-interface-checker","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:16 GMT","location":"https://registry.npmjs.org/ts-interface-checker"},"options":{"compress":true},"status":301}}

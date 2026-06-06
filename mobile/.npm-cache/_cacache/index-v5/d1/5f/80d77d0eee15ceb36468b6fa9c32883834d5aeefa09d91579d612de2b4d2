@@ -1,0 +1,2 @@
+
+6b2c9fc9ea9d591a9e0c4d20950a2549a846e00b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/vlq","integrity":null,"time":1780735561819,"size":"0","metadata":{"time":1780735561819,"url":"http://registry.npmjs.org/vlq","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:02 GMT","location":"https://registry.npmjs.org/vlq"},"options":{"compress":true},"status":301}}

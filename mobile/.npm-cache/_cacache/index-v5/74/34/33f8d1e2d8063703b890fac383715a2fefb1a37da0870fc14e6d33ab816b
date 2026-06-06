@@ -1,0 +1,2 @@
+
+63938255fb4e34e5c3dbbe943cdf6087d6eea716	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/fdir","integrity":null,"time":1780735584894,"size":"0","metadata":{"time":1780735584894,"url":"http://registry.npmjs.org/fdir","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:25 GMT","location":"https://registry.npmjs.org/fdir"},"options":{"compress":true},"status":301}}

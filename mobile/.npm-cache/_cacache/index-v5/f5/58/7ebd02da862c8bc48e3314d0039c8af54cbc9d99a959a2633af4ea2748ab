@@ -1,0 +1,2 @@
+
+8cd1d2ec616b79b3d80ca528da5f68ef734608ba	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@babel%2fpreset-modules","integrity":null,"time":1780735530994,"size":"0","metadata":{"time":1780735530994,"url":"http://registry.npmjs.org/@babel%2fpreset-modules","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:31 GMT","location":"https://registry.npmjs.org/@babel%2Fpreset-modules"},"options":{"compress":true},"status":301}}

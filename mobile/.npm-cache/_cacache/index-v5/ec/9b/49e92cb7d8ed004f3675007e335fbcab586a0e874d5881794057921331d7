@@ -1,0 +1,2 @@
+
+3bace7595a5f7c06bb4a01701dc64eebc0a73246	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/fsevents","integrity":null,"time":1780735579100,"size":"0","metadata":{"time":1780735579100,"url":"http://registry.npmjs.org/fsevents","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:19 GMT","location":"https://registry.npmjs.org/fsevents"},"options":{"compress":true},"status":301}}

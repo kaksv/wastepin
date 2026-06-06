@@ -1,0 +1,2 @@
+
+da929ac7d6e67928838c80af8aaa05f8cb4df5a3	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/tinyglobby","integrity":null,"time":1780735515961,"size":"0","metadata":{"time":1780735515961,"url":"http://registry.npmjs.org/tinyglobby","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:16 GMT","location":"https://registry.npmjs.org/tinyglobby"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+34d5bab321a6d7fc077cc5bc0915931b64713385	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/jest-validate","integrity":null,"time":1780735570663,"size":"0","metadata":{"time":1780735570663,"url":"http://registry.npmjs.org/jest-validate","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:11 GMT","location":"https://registry.npmjs.org/jest-validate"},"options":{"compress":true},"status":301}}

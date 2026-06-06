@@ -1,0 +1,2 @@
+
+982d3e07e85d66d645fb326536cb3560c6e41873	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/buffer-alloc-unsafe","integrity":null,"time":1780735553942,"size":"0","metadata":{"time":1780735553942,"url":"http://registry.npmjs.org/buffer-alloc-unsafe","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:54 GMT","location":"https://registry.npmjs.org/buffer-alloc-unsafe"},"options":{"compress":true},"status":301}}

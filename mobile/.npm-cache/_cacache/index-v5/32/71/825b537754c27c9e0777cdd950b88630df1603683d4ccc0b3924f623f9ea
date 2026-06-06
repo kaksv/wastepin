@@ -1,0 +1,2 @@
+
+5ea5e21b7215b1db12fe19630fb4cf73a4b64bbc	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-arrayish","integrity":null,"time":1780735582596,"size":"0","metadata":{"time":1780735582596,"url":"http://registry.npmjs.org/is-arrayish","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:23 GMT","location":"https://registry.npmjs.org/is-arrayish"},"options":{"compress":true},"status":301}}

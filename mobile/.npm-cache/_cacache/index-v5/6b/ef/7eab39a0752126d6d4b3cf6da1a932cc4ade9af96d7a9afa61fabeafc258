@@ -1,0 +1,2 @@
+
+5abecdb7bc5d2f845324bf8e1371898f61d83f0a	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/fs.realpath","integrity":null,"time":1780735515552,"size":"0","metadata":{"time":1780735515552,"url":"http://registry.npmjs.org/fs.realpath","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:15 GMT","location":"https://registry.npmjs.org/fs.realpath"},"options":{"compress":true},"status":301}}

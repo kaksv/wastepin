@@ -1,0 +1,2 @@
+
+ebaa302ddaabdcbaa5555f91dfe67c666f9a72d9	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/getenv","integrity":null,"time":1780735499746,"size":"0","metadata":{"time":1780735499746,"url":"http://registry.npmjs.org/getenv","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:00 GMT","location":"https://registry.npmjs.org/getenv"},"options":{"compress":true},"status":301}}

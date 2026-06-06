@@ -1,0 +1,2 @@
+
+b7a71f6010660dd60c075c6c5954e9249fdb5f1a	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/stream-buffers","integrity":null,"time":1780735595071,"size":"0","metadata":{"time":1780735595071,"url":"http://registry.npmjs.org/stream-buffers","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:35 GMT","location":"https://registry.npmjs.org/stream-buffers"},"options":{"compress":true},"status":301}}

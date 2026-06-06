@@ -1,0 +1,2 @@
+
+18149adf4f38c4d775a05928d931f9272e816b6c	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/side-channel-list","integrity":null,"time":1780735559195,"size":"0","metadata":{"time":1780735559195,"url":"http://registry.npmjs.org/side-channel-list","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:59 GMT","location":"https://registry.npmjs.org/side-channel-list"},"options":{"compress":true},"status":301}}

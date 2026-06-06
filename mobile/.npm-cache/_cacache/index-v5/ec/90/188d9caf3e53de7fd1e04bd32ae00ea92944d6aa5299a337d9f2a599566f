@@ -1,0 +1,2 @@
+
+3fd26a295d7e3367c250ce0b49faf12f6c6eeb40	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/internal-ip","integrity":null,"time":1780735505493,"size":"0","metadata":{"time":1780735505493,"url":"http://registry.npmjs.org/internal-ip","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:05 GMT","location":"https://registry.npmjs.org/internal-ip"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+a4385a3e9d67abf5b03b4fe0034bf01dd048e234	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/baseline-browser-mapping","integrity":null,"time":1780735536294,"size":"0","metadata":{"time":1780735536294,"url":"http://registry.npmjs.org/baseline-browser-mapping","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:36 GMT","location":"https://registry.npmjs.org/baseline-browser-mapping"},"options":{"compress":true},"status":301}}

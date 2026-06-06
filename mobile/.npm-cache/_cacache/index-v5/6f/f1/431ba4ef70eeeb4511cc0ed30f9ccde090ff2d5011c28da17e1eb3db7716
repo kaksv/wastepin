@@ -1,0 +1,2 @@
+
+8d4175777de48c78338bec84c4cbf5b83595606b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/typed-array-byte-offset","integrity":null,"time":1780735587428,"size":"0","metadata":{"time":1780735587428,"url":"http://registry.npmjs.org/typed-array-byte-offset","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:27 GMT","location":"https://registry.npmjs.org/typed-array-byte-offset"},"options":{"compress":true},"status":301}}

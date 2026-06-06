@@ -1,0 +1,2 @@
+
+f164fb0e93302b8a665ef102d565da7dc031fdd6	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/xtend","integrity":null,"time":1780735582168,"size":"0","metadata":{"time":1780735582168,"url":"http://registry.npmjs.org/xtend","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:22 GMT","location":"https://registry.npmjs.org/xtend"},"options":{"compress":true},"status":301}}

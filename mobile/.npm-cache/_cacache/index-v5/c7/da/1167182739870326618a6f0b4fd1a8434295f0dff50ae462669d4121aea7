@@ -1,0 +1,2 @@
+
+1c20ddd964707b4b393e65d48d8fa7b24fa77c0a	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/require-directory","integrity":null,"time":1780735562316,"size":"0","metadata":{"time":1780735562316,"url":"http://registry.npmjs.org/require-directory","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:02 GMT","location":"https://registry.npmjs.org/require-directory"},"options":{"compress":true},"status":301}}

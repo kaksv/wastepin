@@ -1,0 +1,2 @@
+
+04c19ef54a747daa81aa079c66938794212e10d5	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/freeport-async","integrity":null,"time":1780735505921,"size":"0","metadata":{"time":1780735505921,"url":"http://registry.npmjs.org/freeport-async","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:06 GMT","location":"https://registry.npmjs.org/freeport-async"},"options":{"compress":true},"status":301}}

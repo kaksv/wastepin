@@ -1,0 +1,2 @@
+
+56915e61e117bcf017ee287e0b69aea83a60b1dd	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/es-to-primitive","integrity":null,"time":1780735588967,"size":"0","metadata":{"time":1780735588967,"url":"http://registry.npmjs.org/es-to-primitive","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:29 GMT","location":"https://registry.npmjs.org/es-to-primitive"},"options":{"compress":true},"status":301}}

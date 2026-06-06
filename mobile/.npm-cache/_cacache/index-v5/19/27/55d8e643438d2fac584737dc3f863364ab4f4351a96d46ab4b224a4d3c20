@@ -1,0 +1,2 @@
+
+1c6e9225e780ae29436fea1bc59aaab82fc7d6df	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/object.assign","integrity":null,"time":1780735589886,"size":"0","metadata":{"time":1780735589886,"url":"http://registry.npmjs.org/object.assign","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:30 GMT","location":"https://registry.npmjs.org/object.assign"},"options":{"compress":true},"status":301}}

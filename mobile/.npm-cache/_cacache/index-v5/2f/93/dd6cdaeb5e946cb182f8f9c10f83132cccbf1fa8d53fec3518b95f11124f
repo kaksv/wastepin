@@ -1,0 +1,2 @@
+
+cee85918ff6f0add96f1bd3dc60b380eedb07e7d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@sinonjs%2fcommons","integrity":null,"time":1780735575035,"size":"0","metadata":{"time":1780735575035,"url":"http://registry.npmjs.org/@sinonjs%2fcommons","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:15 GMT","location":"https://registry.npmjs.org/@sinonjs%2Fcommons"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+ca17b7e15875272c9711c59431979a79cfd2f6a2	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/nocache","integrity":null,"time":1780735564650,"size":"0","metadata":{"time":1780735564650,"url":"http://registry.npmjs.org/nocache","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:05 GMT","location":"https://registry.npmjs.org/nocache"},"options":{"compress":true},"status":301}}

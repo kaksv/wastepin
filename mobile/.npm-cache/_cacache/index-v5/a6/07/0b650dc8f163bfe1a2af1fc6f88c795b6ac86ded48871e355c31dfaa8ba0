@@ -1,0 +1,2 @@
+
+626abe852450dd1c78ea5e807a5a70b178e179b9	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/traverse","integrity":null,"time":1780735513733,"size":"0","metadata":{"time":1780735513733,"url":"http://registry.npmjs.org/traverse","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:14 GMT","location":"https://registry.npmjs.org/traverse"},"options":{"compress":true},"status":301}}

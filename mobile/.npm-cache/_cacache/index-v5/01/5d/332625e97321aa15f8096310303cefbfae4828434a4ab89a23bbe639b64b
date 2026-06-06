@@ -1,0 +1,2 @@
+
+71aeb3fe3bf06c4d70e62ab3124c4cf985fc9222	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/cli-spinners","integrity":null,"time":1780735514119,"size":"0","metadata":{"time":1780735514119,"url":"http://registry.npmjs.org/cli-spinners","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:14 GMT","location":"https://registry.npmjs.org/cli-spinners"},"options":{"compress":true},"status":301}}

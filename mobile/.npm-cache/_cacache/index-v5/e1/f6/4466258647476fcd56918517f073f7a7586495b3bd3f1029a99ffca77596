@@ -1,0 +1,2 @@
+
+46e23629b38cf0aff21650afb55ba33f5ffe4730	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/form-data","integrity":null,"time":1780735505100,"size":"0","metadata":{"time":1780735505100,"url":"http://registry.npmjs.org/form-data","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:05 GMT","location":"https://registry.npmjs.org/form-data"},"options":{"compress":true},"status":301}}

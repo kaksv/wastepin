@@ -1,0 +1,2 @@
+
+4ae48ccf15ee77141c160f11ffa73d5ff0209f87	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/remove-trailing-slash","integrity":null,"time":1780735511343,"size":"0","metadata":{"time":1780735511343,"url":"http://registry.npmjs.org/remove-trailing-slash","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:11 GMT","location":"https://registry.npmjs.org/remove-trailing-slash"},"options":{"compress":true},"status":301}}

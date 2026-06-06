@@ -1,0 +1,2 @@
+
+b5cd73eecca325979f341f076d2d73848bc458d7	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/inflight","integrity":null,"time":1780735515546,"size":"0","metadata":{"time":1780735515546,"url":"http://registry.npmjs.org/inflight","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:15 GMT","location":"https://registry.npmjs.org/inflight"},"options":{"compress":true},"status":301}}

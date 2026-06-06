@@ -1,0 +1,2 @@
+
+3c5ff124b1dac31cd2bab6f5646aa4c2fac4f484	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/sprintf-js","integrity":null,"time":1780735552557,"size":"0","metadata":{"time":1780735552557,"url":"http://registry.npmjs.org/sprintf-js","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:52 GMT","location":"https://registry.npmjs.org/sprintf-js"},"options":{"compress":true},"status":301}}

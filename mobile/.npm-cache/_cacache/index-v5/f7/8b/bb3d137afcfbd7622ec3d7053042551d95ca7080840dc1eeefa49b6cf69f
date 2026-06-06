@@ -1,0 +1,2 @@
+
+a5c6467ba15384a4455f829777c04b8ce12d5dbb	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@react-native-community%2fcli-clean","integrity":null,"time":1780735560112,"size":"0","metadata":{"time":1780735560112,"url":"http://registry.npmjs.org/@react-native-community%2fcli-clean","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:00 GMT","location":"https://registry.npmjs.org/@react-native-community%2Fcli-clean"},"options":{"compress":true},"status":301}}

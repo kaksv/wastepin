@@ -1,0 +1,2 @@
+
+8bb3f2c65a5f7479fc5e62cc3ee5397d752cdea5	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-number","integrity":null,"time":1780735555955,"size":"0","metadata":{"time":1780735555955,"url":"http://registry.npmjs.org/is-number","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:56 GMT","location":"https://registry.npmjs.org/is-number"},"options":{"compress":true},"status":301}}

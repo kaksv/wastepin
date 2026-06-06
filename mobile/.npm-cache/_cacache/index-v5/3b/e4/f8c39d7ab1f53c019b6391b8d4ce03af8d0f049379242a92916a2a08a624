@@ -1,0 +1,2 @@
+
+f0b9c8fc59e80abe0bc8faa05d605d54860e3fb3	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/which-builtin-type","integrity":null,"time":1780735592346,"size":"0","metadata":{"time":1780735592346,"url":"http://registry.npmjs.org/which-builtin-type","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:32 GMT","location":"https://registry.npmjs.org/which-builtin-type"},"options":{"compress":true},"status":301}}

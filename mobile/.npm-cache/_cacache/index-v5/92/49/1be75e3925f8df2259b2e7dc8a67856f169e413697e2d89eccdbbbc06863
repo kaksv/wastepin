@@ -1,0 +1,2 @@
+
+102e8e60e697cf15e23113fe221198969af33418	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-plain-obj","integrity":null,"time":1780735502022,"size":"0","metadata":{"time":1780735502022,"url":"http://registry.npmjs.org/is-plain-obj","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:02 GMT","location":"https://registry.npmjs.org/is-plain-obj"},"options":{"compress":true},"status":301}}

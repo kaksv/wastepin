@@ -1,0 +1,2 @@
+
+80de595e6d7b8a751298d374d46a00287b7e0748	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/minipass-collect","integrity":null,"time":1780735512760,"size":"0","metadata":{"time":1780735512760,"url":"http://registry.npmjs.org/minipass-collect","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:13 GMT","location":"https://registry.npmjs.org/minipass-collect"},"options":{"compress":true},"status":301}}

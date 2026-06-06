@@ -1,0 +1,2 @@
+
+77a45b9270430c809dd0f691ed590bed3b51e459	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/qrcode-terminal","integrity":null,"time":1780735506059,"size":"0","metadata":{"time":1780735506059,"url":"http://registry.npmjs.org/qrcode-terminal","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:06 GMT","location":"https://registry.npmjs.org/qrcode-terminal"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+8be518380dc33fc833df8ff4b07d8cb763b4bff8	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@react-native%2fassets-registry","integrity":null,"time":1780735497927,"size":"0","metadata":{"time":1780735497927,"url":"http://registry.npmjs.org/@react-native%2fassets-registry","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:44:58 GMT","location":"https://registry.npmjs.org/@react-native%2Fassets-registry"},"options":{"compress":true},"status":301}}

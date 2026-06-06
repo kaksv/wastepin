@@ -1,0 +1,2 @@
+
+046bdc52b4dda82bcbe55ef5f33f3f1bf570b79d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/run-parallel","integrity":null,"time":1780735547180,"size":"0","metadata":{"time":1780735547180,"url":"http://registry.npmjs.org/run-parallel","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:47 GMT","location":"https://registry.npmjs.org/run-parallel"},"options":{"compress":true},"status":301}}

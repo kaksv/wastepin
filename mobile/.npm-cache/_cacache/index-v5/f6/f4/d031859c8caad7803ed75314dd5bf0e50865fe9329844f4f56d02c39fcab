@@ -1,0 +1,2 @@
+
+a6acf0b60c97ac32f8989638626e847d37e872d1	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/p-map","integrity":null,"time":1780735512280,"size":"0","metadata":{"time":1780735512280,"url":"http://registry.npmjs.org/p-map","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:12 GMT","location":"https://registry.npmjs.org/p-map"},"options":{"compress":true},"status":301}}

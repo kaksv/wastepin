@@ -1,0 +1,2 @@
+
+768d5967985c4210604cf00b087c8208b0062e68	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/human-signals","integrity":null,"time":1780735564804,"size":"0","metadata":{"time":1780735564804,"url":"http://registry.npmjs.org/human-signals","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:05 GMT","location":"https://registry.npmjs.org/human-signals"},"options":{"compress":true},"status":301}}

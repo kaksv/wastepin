@@ -1,0 +1,2 @@
+
+c023f901b36f2f94b2ad1af056d2495afa8203c4	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz","integrity":null,"time":1780735601143,"size":"0","metadata":{"time":1780735601143,"url":"http://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:41 GMT","location":"https://registry.npmjs.org/ansi-regex/-/ansi-regex-5.0.1.tgz"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+741b49f60afc65bf3f1b44f13e8655827969ac02	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/command-exists","integrity":null,"time":1780735563936,"size":"0","metadata":{"time":1780735563936,"url":"http://registry.npmjs.org/command-exists","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:04 GMT","location":"https://registry.npmjs.org/command-exists"},"options":{"compress":true},"status":301}}

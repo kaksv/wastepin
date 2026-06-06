@@ -1,0 +1,2 @@
+
+34f67b490ec3fe5a466bf9a3166b993cb98b6c77	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/is-weakref","integrity":null,"time":1780735589885,"size":"0","metadata":{"time":1780735589885,"url":"http://registry.npmjs.org/is-weakref","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:30 GMT","location":"https://registry.npmjs.org/is-weakref"},"options":{"compress":true},"status":301}}

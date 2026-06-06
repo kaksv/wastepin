@@ -1,0 +1,2 @@
+
+c12558f9c94a3615c64a80d5b5a9651fdcbcc310	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/caniuse-lite","integrity":null,"time":1780735536296,"size":"0","metadata":{"time":1780735536296,"url":"http://registry.npmjs.org/caniuse-lite","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:36 GMT","location":"https://registry.npmjs.org/caniuse-lite"},"options":{"compress":true},"status":301}}

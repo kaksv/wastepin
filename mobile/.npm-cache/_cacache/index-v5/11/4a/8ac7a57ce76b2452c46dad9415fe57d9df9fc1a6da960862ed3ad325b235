@@ -1,0 +1,2 @@
+
+25b9266119c0c8ca07796e9bd1134f24daba3831	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/regjsgen","integrity":null,"time":1780735540143,"size":"0","metadata":{"time":1780735540143,"url":"http://registry.npmjs.org/regjsgen","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:40 GMT","location":"https://registry.npmjs.org/regjsgen"},"options":{"compress":true},"status":301}}

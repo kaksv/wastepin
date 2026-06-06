@@ -1,0 +1,2 @@
+
+08ac5a0c853308cbe0ffe441160317297f3c54f9	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/decamelize","integrity":null,"time":1780735578008,"size":"0","metadata":{"time":1780735578008,"url":"http://registry.npmjs.org/decamelize","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:18 GMT","location":"https://registry.npmjs.org/decamelize"},"options":{"compress":true},"status":301}}

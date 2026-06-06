@@ -1,0 +1,2 @@
+
+f412d3cd49f845b181de08aec3335dfc6b1ec919	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/react-native-maps","integrity":null,"time":1780735494061,"size":"0","metadata":{"time":1780735494061,"url":"http://registry.npmjs.org/react-native-maps","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:44:54 GMT","location":"https://registry.npmjs.org/react-native-maps"},"options":{"compress":true},"status":301}}

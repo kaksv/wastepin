@@ -1,0 +1,2 @@
+
+a8c33f5bdb46c20e79f11f651c42c163c175b346	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/regexpu-core","integrity":null,"time":1780735539714,"size":"0","metadata":{"time":1780735539714,"url":"http://registry.npmjs.org/regexpu-core","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:40 GMT","location":"https://registry.npmjs.org/regexpu-core"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+989b5ad03001919353a76789ae86dc709ae2e256	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/find-cache-dir","integrity":null,"time":1780735576555,"size":"0","metadata":{"time":1780735576555,"url":"http://registry.npmjs.org/find-cache-dir","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:16 GMT","location":"https://registry.npmjs.org/find-cache-dir"},"options":{"compress":true},"status":301}}

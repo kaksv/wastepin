@@ -1,0 +1,2 @@
+
+3d9fc82309197f795806307a9f40ed40993223c1	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/big-integer","integrity":null,"time":1780735511972,"size":"0","metadata":{"time":1780735511972,"url":"http://registry.npmjs.org/big-integer","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:12 GMT","location":"https://registry.npmjs.org/big-integer"},"options":{"compress":true},"status":301}}

@@ -1,0 +1,2 @@
+
+cf78761040f62e44149fe08d2bf55d217166aa32	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/mime-db","integrity":null,"time":1780735521139,"size":"0","metadata":{"time":1780735521139,"url":"http://registry.npmjs.org/mime-db","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:21 GMT","location":"https://registry.npmjs.org/mime-db"},"options":{"compress":true},"status":301}}

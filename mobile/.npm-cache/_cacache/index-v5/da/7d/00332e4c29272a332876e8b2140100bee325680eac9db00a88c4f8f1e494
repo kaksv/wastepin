@@ -1,0 +1,2 @@
+
+5e029e28b4858b8bd72d84f164a4ecff668270cd	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/requireg","integrity":null,"time":1780735505046,"size":"0","metadata":{"time":1780735505046,"url":"http://registry.npmjs.org/requireg","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:05 GMT","location":"https://registry.npmjs.org/requireg"},"options":{"compress":true},"status":301}}

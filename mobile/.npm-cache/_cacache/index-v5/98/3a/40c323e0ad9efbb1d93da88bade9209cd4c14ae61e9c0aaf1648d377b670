@@ -1,0 +1,2 @@
+
+00edd4d54ad8436f9a5a4808e52a3507cbbe0ed3	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/unbox-primitive","integrity":null,"time":1780735590901,"size":"0","metadata":{"time":1780735590901,"url":"http://registry.npmjs.org/unbox-primitive","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:31 GMT","location":"https://registry.npmjs.org/unbox-primitive"},"options":{"compress":true},"status":301}}

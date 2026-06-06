@@ -1,0 +1,2 @@
+
+b2dd8010407c36874f8ebfd5e022a69057901aa8	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/strip-final-newline","integrity":null,"time":1780735565046,"size":"0","metadata":{"time":1780735565046,"url":"http://registry.npmjs.org/strip-final-newline","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:05 GMT","location":"https://registry.npmjs.org/strip-final-newline"},"options":{"compress":true},"status":301}}

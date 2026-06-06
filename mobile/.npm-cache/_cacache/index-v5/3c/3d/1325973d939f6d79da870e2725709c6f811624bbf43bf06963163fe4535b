@@ -1,0 +1,2 @@
+
+f2d5a1b58ffc45841d6ab931b1e9b759ef80e419	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/fs-minipass","integrity":null,"time":1780735512439,"size":"0","metadata":{"time":1780735512439,"url":"http://registry.npmjs.org/fs-minipass","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:12 GMT","location":"https://registry.npmjs.org/fs-minipass"},"options":{"compress":true},"status":301}}

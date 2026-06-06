@@ -1,0 +1,2 @@
+
+39ac66d26c8d47cabaf6127791fdd043934c3579	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@types%2fistanbul-reports","integrity":null,"time":1780735557584,"size":"0","metadata":{"time":1780735557584,"url":"http://registry.npmjs.org/@types%2fistanbul-reports","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:58 GMT","location":"https://registry.npmjs.org/@types%2Fistanbul-reports"},"options":{"compress":true},"status":301}}

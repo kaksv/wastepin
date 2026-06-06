@@ -1,0 +1,2 @@
+
+fe34778b886827ac3ca9c8a9391e52ca5a673b4d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@types%2freact-test-renderer","integrity":null,"time":1780735501148,"size":"0","metadata":{"time":1780735501148,"url":"http://registry.npmjs.org/@types%2freact-test-renderer","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:01 GMT","location":"https://registry.npmjs.org/@types%2Freact-test-renderer"},"options":{"compress":true},"status":301}}

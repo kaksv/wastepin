@@ -1,0 +1,2 @@
+
+94fee6bc767b3d91d1795e8e597c6809152fe1da	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/supports-preserve-symlinks-flag","integrity":null,"time":1780735541646,"size":"0","metadata":{"time":1780735541646,"url":"http://registry.npmjs.org/supports-preserve-symlinks-flag","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:42 GMT","location":"https://registry.npmjs.org/supports-preserve-symlinks-flag"},"options":{"compress":true},"status":301}}

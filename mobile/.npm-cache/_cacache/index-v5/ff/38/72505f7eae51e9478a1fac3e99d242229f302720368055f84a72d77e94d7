@@ -1,0 +1,2 @@
+
+16e29d11c389b5e8f6e74059b5c0b45514a66873	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@types%2fhammerjs","integrity":null,"time":1780735582651,"size":"0","metadata":{"time":1780735582651,"url":"http://registry.npmjs.org/@types%2fhammerjs","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:23 GMT","location":"https://registry.npmjs.org/@types%2Fhammerjs"},"options":{"compress":true},"status":301}}

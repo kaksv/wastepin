@@ -1,0 +1,2 @@
+
+0521528f227815f23cfdd77ad13e4237acb43898	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@expo%2fpackage-manager","integrity":null,"time":1780735506404,"size":"0","metadata":{"time":1780735506404,"url":"http://registry.npmjs.org/@expo%2fpackage-manager","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:06 GMT","location":"https://registry.npmjs.org/@expo%2Fpackage-manager"},"options":{"compress":true},"status":301}}

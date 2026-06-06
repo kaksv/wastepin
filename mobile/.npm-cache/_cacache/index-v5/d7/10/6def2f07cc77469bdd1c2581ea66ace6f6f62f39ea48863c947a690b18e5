@@ -1,0 +1,2 @@
+
+562c7fa42e1ef5756e32e55fda7eaedbe2909fc5	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/strip-json-comments","integrity":null,"time":1780735584341,"size":"0","metadata":{"time":1780735584341,"url":"http://registry.npmjs.org/strip-json-comments","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:24 GMT","location":"https://registry.npmjs.org/strip-json-comments"},"options":{"compress":true},"status":301}}

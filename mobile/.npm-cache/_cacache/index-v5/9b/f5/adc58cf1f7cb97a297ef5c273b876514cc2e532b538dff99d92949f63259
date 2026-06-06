@@ -1,0 +1,2 @@
+
+4ae42c3fb3731a88bbe330efebc297a2ab66cadb	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/fbemitter","integrity":null,"time":1780735499953,"size":"0","metadata":{"time":1780735499953,"url":"http://registry.npmjs.org/fbemitter","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:00 GMT","location":"https://registry.npmjs.org/fbemitter"},"options":{"compress":true},"status":301}}

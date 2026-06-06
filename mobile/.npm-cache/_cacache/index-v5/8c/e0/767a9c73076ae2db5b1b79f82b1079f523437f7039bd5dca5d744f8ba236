@@ -1,0 +1,2 @@
+
+7e2cd3f1689009a17b0593ad27292ca2f0268bcd	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz","integrity":null,"time":1780735600862,"size":"0","metadata":{"time":1780735600862,"url":"http://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:41 GMT","location":"https://registry.npmjs.org/iconv-lite/-/iconv-lite-0.4.24.tgz"},"options":{"compress":true},"status":301}}

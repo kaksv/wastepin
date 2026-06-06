@@ -1,0 +1,2 @@
+
+ce2a42a7e565f402326308e56510aeeaa313d09b	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz","integrity":null,"time":1780735600398,"size":"0","metadata":{"time":1780735600398,"url":"http://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz","reqHeaders":{},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:40 GMT","location":"https://registry.npmjs.org/os-tmpdir/-/os-tmpdir-1.0.2.tgz"},"options":{"compress":true},"status":301}}

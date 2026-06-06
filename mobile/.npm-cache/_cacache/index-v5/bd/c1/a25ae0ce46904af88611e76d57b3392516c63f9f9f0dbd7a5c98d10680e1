@@ -1,0 +1,2 @@
+
+d5190b65752612eaa721d8355a24652980f777bd	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@jridgewell%2fresolve-uri","integrity":null,"time":1780735535343,"size":"0","metadata":{"time":1780735535343,"url":"http://registry.npmjs.org/@jridgewell%2fresolve-uri","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:35 GMT","location":"https://registry.npmjs.org/@jridgewell%2Fresolve-uri"},"options":{"compress":true},"status":301}}

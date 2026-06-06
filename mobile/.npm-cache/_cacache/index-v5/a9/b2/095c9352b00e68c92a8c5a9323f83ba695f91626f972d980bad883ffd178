@@ -1,0 +1,2 @@
+
+009c6d9cdf1819553aece9eefd81ee86c0572f14	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/undici-types","integrity":null,"time":1780735558401,"size":"0","metadata":{"time":1780735558400,"url":"http://registry.npmjs.org/undici-types","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:58 GMT","location":"https://registry.npmjs.org/undici-types"},"options":{"compress":true},"status":301}}

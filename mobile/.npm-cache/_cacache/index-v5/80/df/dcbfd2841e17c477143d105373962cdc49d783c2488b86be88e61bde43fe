@@ -1,0 +1,2 @@
+
+08f79d0a777e155005a9f5865b775ac7ab8196a7	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/metro-transform-worker","integrity":null,"time":1780735570543,"size":"0","metadata":{"time":1780735570543,"url":"http://registry.npmjs.org/metro-transform-worker","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:10 GMT","location":"https://registry.npmjs.org/metro-transform-worker"},"options":{"compress":true},"status":301}}

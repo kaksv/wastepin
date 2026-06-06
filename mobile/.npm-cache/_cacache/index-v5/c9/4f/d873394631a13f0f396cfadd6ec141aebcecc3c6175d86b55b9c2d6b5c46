@@ -1,0 +1,2 @@
+
+d49e09af4884fb0dcc32f903d6a06e8108454d74	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/etag","integrity":null,"time":1780735514195,"size":"0","metadata":{"time":1780735514195,"url":"http://registry.npmjs.org/etag","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:14 GMT","location":"https://registry.npmjs.org/etag"},"options":{"compress":true},"status":301}}

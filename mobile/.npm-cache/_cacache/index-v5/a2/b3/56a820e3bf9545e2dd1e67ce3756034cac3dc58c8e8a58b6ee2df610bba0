@@ -1,0 +1,2 @@
+
+b6bb820953be9c73f27d42040b3507d71a6ca094	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/hosted-git-info","integrity":null,"time":1780735513900,"size":"0","metadata":{"time":1780735513900,"url":"http://registry.npmjs.org/hosted-git-info","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:14 GMT","location":"https://registry.npmjs.org/hosted-git-info"},"options":{"compress":true},"status":301}}

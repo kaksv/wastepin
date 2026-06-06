@@ -1,0 +1,2 @@
+
+6835ebda58466d036dbbb2e40b39d0a2db38b334	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@npmcli%2ffs","integrity":null,"time":1780735512387,"size":"0","metadata":{"time":1780735512387,"url":"http://registry.npmjs.org/@npmcli%2ffs","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:12 GMT","location":"https://registry.npmjs.org/@npmcli%2Ffs"},"options":{"compress":true},"status":301}}

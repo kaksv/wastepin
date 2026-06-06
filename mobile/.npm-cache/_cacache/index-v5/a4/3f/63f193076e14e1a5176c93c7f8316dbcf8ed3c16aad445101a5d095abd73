@@ -1,0 +1,2 @@
+
+235f0ccfbbe78066b836ab666ee0a845a4262f3d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/unique-filename","integrity":null,"time":1780735512707,"size":"0","metadata":{"time":1780735512707,"url":"http://registry.npmjs.org/unique-filename","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:13 GMT","location":"https://registry.npmjs.org/unique-filename"},"options":{"compress":true},"status":301}}

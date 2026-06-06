@@ -1,0 +1,2 @@
+
+791d48ffdf475be59bb07eda5acf04ba4b89be1f	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/@react-native-community%2fcli-hermes","integrity":null,"time":1780735560141,"size":"0","metadata":{"time":1780735560141,"url":"http://registry.npmjs.org/@react-native-community%2fcli-hermes","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:00 GMT","location":"https://registry.npmjs.org/@react-native-community%2Fcli-hermes"},"options":{"compress":true},"status":301}}

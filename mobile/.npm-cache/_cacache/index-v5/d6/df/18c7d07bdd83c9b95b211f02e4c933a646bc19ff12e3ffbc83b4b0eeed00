@@ -1,0 +1,2 @@
+
+6c069785b1a07f3830b307d0f627065639bf590d	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/md5hex","integrity":null,"time":1780735504609,"size":"0","metadata":{"time":1780735504609,"url":"http://registry.npmjs.org/md5hex","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:05 GMT","location":"https://registry.npmjs.org/md5hex"},"options":{"compress":true},"status":301}}

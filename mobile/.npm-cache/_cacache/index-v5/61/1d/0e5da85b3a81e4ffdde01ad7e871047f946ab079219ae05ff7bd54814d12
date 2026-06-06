@@ -1,0 +1,2 @@
+
+9fe5dcd08b6ae73c922be4d49b5a376773cd8f54	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/strict-uri-encode","integrity":null,"time":1780735502755,"size":"0","metadata":{"time":1780735502755,"url":"http://registry.npmjs.org/strict-uri-encode","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:03 GMT","location":"https://registry.npmjs.org/strict-uri-encode"},"options":{"compress":true},"status":301}}

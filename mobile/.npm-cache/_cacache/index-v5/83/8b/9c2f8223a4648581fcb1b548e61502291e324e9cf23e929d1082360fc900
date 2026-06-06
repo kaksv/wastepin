@@ -1,0 +1,2 @@
+
+d02e3a030d5d2e1d0403155f28bae74fb75ac6b2	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/media-typer","integrity":null,"time":1780735542600,"size":"0","metadata":{"time":1780735542600,"url":"http://registry.npmjs.org/media-typer","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:45:43 GMT","location":"https://registry.npmjs.org/media-typer"},"options":{"compress":true},"status":301}}

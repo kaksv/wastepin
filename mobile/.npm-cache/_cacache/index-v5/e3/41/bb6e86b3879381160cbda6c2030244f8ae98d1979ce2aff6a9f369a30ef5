@@ -1,0 +1,2 @@
+
+5d4aee43294afddd182d576197db6104b78df994	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/uglify-es","integrity":null,"time":1780735579157,"size":"0","metadata":{"time":1780735579157,"url":"http://registry.npmjs.org/uglify-es","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:19 GMT","location":"https://registry.npmjs.org/uglify-es"},"options":{"compress":true},"status":301}}

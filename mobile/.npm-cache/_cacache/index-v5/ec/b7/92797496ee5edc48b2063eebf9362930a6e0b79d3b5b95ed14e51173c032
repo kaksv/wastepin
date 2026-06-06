@@ -1,0 +1,2 @@
+
+320423262e7954444e492741b4e83ebd549e3419	{"key":"make-fetch-happen:request-cache:http://registry.npmjs.org/has-bigints","integrity":null,"time":1780735591479,"size":"0","metadata":{"time":1780735591479,"url":"http://registry.npmjs.org/has-bigints","reqHeaders":{"accept":"application/json"},"resHeaders":{"content-type":"text/plain;charset=UTF-8","date":"Sat, 06 Jun 2026 08:46:31 GMT","location":"https://registry.npmjs.org/has-bigints"},"options":{"compress":true},"status":301}}
