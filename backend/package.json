@@ -7,7 +7,9 @@
   "scripts": {
     "dev": "nodemon src/index.js",
     "start": "node src/index.js",
-    "prisma": "prisma"
+    "prisma": "prisma",
+    "db:push": "prisma db push",
+    "migrate:deploy": "prisma migrate deploy"
   },
   "dependencies": {
     "cors": "^2.8.5",
