@@ -12,7 +12,7 @@ L.Icon.Default.mergeOptions({
 
 export default function MapView({ pins, loading }){
   const center = useMemo(() => {
-    if (pins.length === 0) return [40.7128, -74.006] // Default: NYC
+    if (pins.length === 0) return [0.3476, 32.5825] // Default: Kampala, Uganda
     const lat = pins.reduce((acc, p) => acc + p.latitude, 0) / pins.length
     const lng = pins.reduce((acc, p) => acc + p.longitude, 0) / pins.length
     return [lat, lng]
