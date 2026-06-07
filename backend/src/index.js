@@ -39,6 +39,18 @@ app.get("/api/pins", async (req, res) => {
   res.json(pins);
 });
 
+app.delete("/api/pins/sample", async (req, res) => {
+  const deleted = await prisma.wastePin.deleteMany({
+    where: {
+      description: {
+        contains: "generated for seeding",
+      },
+    },
+  });
+
+  res.json({ deletedCount: deleted.count });
+});
+
 app.post("/api/pins", async (req, res) => {
   const { title, description, latitude, longitude, wasteType, quantity, contact, creatorId, photos } = req.body;
 

@@ -10,7 +10,8 @@
     "prisma": "prisma",
     "db:push": "prisma db push",
     "migrate:deploy": "prisma migrate deploy",
-    "seed": "node ./scripts/seed.js"
+    "seed": "node ./scripts/seed.js",
+    "seed:clear": "node ./scripts/clearSamplePins.js"
   },
   "dependencies": {
     "cors": "^2.8.5",

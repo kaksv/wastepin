@@ -22,19 +22,33 @@ async function main() {
     create: { name: "Bob", phone: "+10000000002", role: "HAULER" },
   });
 
-  const baseLat = 0.3345; // Nakawa / Kampala area
-  const baseLon = 32.6210;
+  await prisma.wastePin.deleteMany({
+    where: {
+      description: {
+        contains: 'generated for seeding',
+      },
+    },
+  });
 
-  const samplePins = Array.from({ length: 8 }).map((_, i) => {
-    const lat = baseLat + randomOffset();
-    const lon = baseLon + randomOffset();
+  const sampleLocations = [
+    { latitude: 0.3390, longitude: 32.6275 },
+    { latitude: 0.3378, longitude: 32.6202 },
+    { latitude: 0.3416, longitude: 32.6181 },
+    { latitude: 0.3329, longitude: 32.6251 },
+    { latitude: 0.3473, longitude: 32.6135 },
+    { latitude: 0.3512, longitude: 32.6290 },
+    { latitude: 0.3405, longitude: 32.6352 },
+    { latitude: 0.3337, longitude: 32.6150 },
+  ];
+
+  const samplePins = sampleLocations.map((location, i) => {
     const seed = `wastepin-${i}`;
     const imageUrl = `https://picsum.photos/seed/${seed}/800/600`;
     return {
       title: `Discarded ${["Plastic","Glass","Metal","Organic"][i % 4]} #${i + 1}`,
       description: `Sample pin ${i + 1} generated for seeding in Kampala / Nakawa`,
-      latitude: lat,
-      longitude: lon,
+      latitude: location.latitude,
+      longitude: location.longitude,
       wasteType: ["PLASTIC","GLASS","METAL","ORGANIC"][i % 4],
       quantity: `${(i + 1) * 2} kg`,
       contact: i % 2 === 0 ? "+1000111222" : null,
