@@ -22,8 +22,8 @@ async function main() {
     create: { name: "Bob", phone: "+10000000002", role: "HAULER" },
   });
 
-  const baseLat = -1.2921; // example center (Nairobi)
-  const baseLon = 36.8219;
+  const baseLat = 0.3345; // Nakawa / Kampala area
+  const baseLon = 32.6210;
 
   const samplePins = Array.from({ length: 8 }).map((_, i) => {
     const lat = baseLat + randomOffset();
@@ -32,7 +32,7 @@ async function main() {
     const imageUrl = `https://picsum.photos/seed/${seed}/800/600`;
     return {
       title: `Discarded ${["Plastic","Glass","Metal","Organic"][i % 4]} #${i + 1}`,
-      description: `Sample pin ${i + 1} generated for seeding`,
+      description: `Sample pin ${i + 1} generated for seeding in Kampala / Nakawa`,
       latitude: lat,
       longitude: lon,
       wasteType: ["PLASTIC","GLASS","METAL","ORGANIC"][i % 4],
