@@ -2,6 +2,42 @@ import React, {useEffect, useState} from 'react'
 import { getPins } from './api'
 import MapView from './MapView'
 
+function PinCard({ pin }) {
+  const photos = Array.isArray(pin.photos) ? pin.photos : []
+  const [selectedIndex, setSelectedIndex] = useState(0)
+  const selectedPhoto = photos[selectedIndex] || null
+
+  return (
+    <li className="pin">
+      {selectedPhoto ? (
+        <img src={selectedPhoto} alt={pin.title || 'pin image'} />
+      ) : (
+        <div className="pin-placeholder">No image available</div>
+      )}
+      {photos.length > 1 && (
+        <div className="pin-thumbnails">
+          {photos.slice(0, 3).map((thumbUrl, index) => (
+            <button
+              key={index}
+              type="button"
+              className={`thumbnail-button ${index === selectedIndex ? 'active' : ''}`}
+              onClick={() => setSelectedIndex(index)}
+            >
+              <img src={thumbUrl} alt={`Thumbnail ${index + 1}`} className="pin-thumbnail" />
+            </button>
+          ))}
+        </div>
+      )}
+      <div className="pin-body">
+        <h3>{pin.title || 'Untitled'}</h3>
+        <p>{pin.description || ''}</p>
+        <p className="meta">Status: {pin.status || 'open'}</p>
+        <p className="meta">Type: {pin.wasteType || 'unknown'}</p>
+      </div>
+    </li>
+  )
+}
+
 export default function App(){
   const [pins, setPins] = useState([])
   const [loading, setLoading] = useState(true)
@@ -46,17 +82,7 @@ export default function App(){
             {pins.length === 0 && !loading && <p>No pins yet.</p>}
             <ul className="pins-list">
               {pins.map(pin=> (
-                <li key={pin.id} className="pin">
-                  {pin.photos && pin.photos[0] && (
-                    <img src={pin.photos[0]} alt={pin.title || 'pin image'} />
-                  )}
-                  <div className="pin-body">
-                    <h3>{pin.title || 'Untitled'}</h3>
-                    <p>{pin.description || ''}</p>
-                    <p className="meta">Status: {pin.status || 'open'}</p>
-                    <p className="meta">Type: {pin.wasteType || 'unknown'}</p>
-                  </div>
-                </li>
+                <PinCard key={pin.id} pin={pin} />
               ))}
             </ul>
           </>

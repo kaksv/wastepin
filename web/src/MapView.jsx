@@ -28,18 +28,22 @@ export default function MapView({ pins, loading }){
             url="https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png"
             attribution="&copy; OpenStreetMap contributors"
           />
-          {pins.map(pin => (
-            <Marker key={pin.id} position={[pin.latitude, pin.longitude]}>
-              <Popup>
-                <div className="popup-content">
-                  <strong>{pin.title || 'Untitled'}</strong>
-                  <p>{pin.description || ''}</p>
-                  <p><small>Type: {pin.wasteType}, Qty: {pin.quantity}</small></p>
-                  <p><small>Status: {pin.status}</small></p>
-                </div>
-              </Popup>
-            </Marker>
-          ))}
+          {pins.map(pin => {
+            const photoUrl = Array.isArray(pin.photos) && pin.photos.length > 0 ? pin.photos[0] : null
+            return (
+              <Marker key={pin.id} position={[pin.latitude, pin.longitude]}>
+                <Popup>
+                  <div className="popup-content">
+                    {photoUrl && <img className="popup-image" src={photoUrl} alt={pin.title || 'pin image'} />}
+                    <strong>{pin.title || 'Untitled'}</strong>
+                    <p>{pin.description || ''}</p>
+                    <p><small>Type: {pin.wasteType}, Qty: {pin.quantity}</small></p>
+                    <p><small>Status: {pin.status}</small></p>
+                  </div>
+                </Popup>
+              </Marker>
+            )
+          })}
         </MapContainer>
       )}
     </div>
