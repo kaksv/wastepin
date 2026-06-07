@@ -34,7 +34,7 @@ export default function MapView({ pins, loading }){
               <Marker key={pin.id} position={[pin.latitude, pin.longitude]}>
                 <Popup>
                   <div className="popup-content">
-                    {photoUrl && <img className="popup-image" src={photoUrl} alt={pin.title || 'pin image'} />}
+                    {photoUrl && <img className="popup-image" src={photoUrl} alt={pin.title || 'pin image'} onError={e => { e.currentTarget.style.display = 'none' }} />}
                     <strong>{pin.title || 'Untitled'}</strong>
                     <p>{pin.description || ''}</p>
                     <p><small>Type: {pin.wasteType}, Qty: {pin.quantity}</small></p>

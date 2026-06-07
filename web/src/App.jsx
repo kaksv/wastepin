@@ -10,10 +10,13 @@ function PinCard({ pin }) {
   return (
     <li className="pin">
       {selectedPhoto ? (
-        <img src={selectedPhoto} alt={pin.title || 'pin image'} />
-      ) : (
-        <div className="pin-placeholder">No image available</div>
-      )}
+        <img
+          src={selectedPhoto}
+          alt={pin.title || 'pin image'}
+          onError={e => { e.currentTarget.style.display = 'none'; e.currentTarget.nextSibling.style.display = 'flex' }}
+        />
+      ) : null}
+      <div className="pin-placeholder" style={{ display: selectedPhoto ? 'none' : 'flex' }}>No image available</div>
       {photos.length > 1 && (
         <div className="pin-thumbnails">
           {photos.slice(0, 3).map((thumbUrl, index) => (
@@ -23,7 +26,12 @@ function PinCard({ pin }) {
               className={`thumbnail-button ${index === selectedIndex ? 'active' : ''}`}
               onClick={() => setSelectedIndex(index)}
             >
-              <img src={thumbUrl} alt={`Thumbnail ${index + 1}`} className="pin-thumbnail" />
+              <img
+              src={thumbUrl}
+              alt={`Thumbnail ${index + 1}`}
+              className="pin-thumbnail"
+              onError={e => { e.currentTarget.parentElement.style.display = 'none' }}
+            />
             </button>
           ))}
         </div>

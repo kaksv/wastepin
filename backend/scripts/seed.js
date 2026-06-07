@@ -41,15 +41,39 @@ async function main() {
     { latitude: 0.3337, longitude: 32.6150 },
   ];
 
+  const wasteImages = {
+    PLASTIC: [
+      'https://picsum.photos/seed/plastic1/800/600',
+      'https://picsum.photos/seed/plastic2/800/600',
+      'https://picsum.photos/seed/plastic3/800/600',
+    ],
+    GLASS: [
+      'https://picsum.photos/seed/glass1/800/600',
+      'https://picsum.photos/seed/glass2/800/600',
+      'https://picsum.photos/seed/glass3/800/600',
+    ],
+    METAL: [
+      'https://picsum.photos/seed/metal1/800/600',
+      'https://picsum.photos/seed/metal2/800/600',
+      'https://picsum.photos/seed/metal3/800/600',
+    ],
+    ORGANIC: [
+      'https://picsum.photos/seed/organic1/800/600',
+      'https://picsum.photos/seed/organic2/800/600',
+      'https://picsum.photos/seed/organic3/800/600',
+    ],
+  };
+
   const samplePins = sampleLocations.map((location, i) => {
-    const seed = `wastepin-${i}`;
-    const imageUrl = `https://picsum.photos/seed/${seed}/800/600`;
+    const wasteType = ["PLASTIC","GLASS","METAL","ORGANIC"][i % 4];
+    const images = wasteImages[wasteType] || [];
+    const imageUrl = images[i % images.length];
     return {
-      title: `Discarded ${["Plastic","Glass","Metal","Organic"][i % 4]} #${i + 1}`,
+      title: `Discarded ${wasteType.charAt(0) + wasteType.slice(1).toLowerCase()} #${i + 1}`,
       description: `Sample pin ${i + 1} generated for seeding in Kampala / Nakawa`,
       latitude: location.latitude,
       longitude: location.longitude,
-      wasteType: ["PLASTIC","GLASS","METAL","ORGANIC"][i % 4],
+      wasteType: wasteType,
       quantity: `${(i + 1) * 2} kg`,
       contact: i % 2 === 0 ? "+1000111222" : null,
       photos: JSON.stringify([imageUrl]),
