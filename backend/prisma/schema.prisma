@@ -8,19 +8,19 @@ datasource db {
 }
 
 model User {
-  id              String   @id @default(cuid())
-  name            String?
-  phone           String?  @unique
-  role            String   @default("GENERATOR")
-  reputation      Int      @default(0)
-  points          Int      @default(0)
-  createdAt       DateTime @default(now())
-  createdWastePins WastePin[] @relation("CreatedByUser")
+  id               String     @id @default(cuid())
+  name             String?
+  phone            String?    @unique
+  role             String     @default("GENERATOR")
+  reputation       Int        @default(0)
+  points           Int        @default(0)
+  createdAt        DateTime   @default(now())
   claimedWastePins WastePin[] @relation("ClaimedByUser")
+  createdWastePins WastePin[] @relation("CreatedByUser")
 }
 
 model WastePin {
-  id          String   @id @default(cuid())
+  id          String    @id @default(cuid())
   title       String
   description String?
   latitude    Float
@@ -29,12 +29,12 @@ model WastePin {
   quantity    String
   photos      String?
   contact     String?
-  status      String   @default("OPEN")
-  creator     User?    @relation("CreatedByUser", fields: [creatorId], references: [id])
+  status      String    @default("OPEN")
   creatorId   String?
-  claimedBy   User?    @relation("ClaimedByUser", fields: [claimedById], references: [id])
   claimedById String?
   claimedAt   DateTime?
   completedAt DateTime?
-  createdAt   DateTime @default(now())
+  createdAt   DateTime  @default(now())
+  claimedBy   User?     @relation("ClaimedByUser", fields: [claimedById], references: [id])
+  creator     User?     @relation("CreatedByUser", fields: [creatorId], references: [id])
 }
