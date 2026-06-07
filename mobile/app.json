@@ -4,6 +4,31 @@
     "slug": "wastepin",
     "version": "1.0.0",
     "sdkVersion": "48.0.0",
-    "platforms": ["ios", "android", "web"]
+    "platforms": ["ios", "android", "web"],
+    "icon": "./assets/icon.png",
+    "splash": {
+      "image": "./assets/splash.png",
+      "resizeMode": "contain",
+      "backgroundColor": "#2f6ef4"
+    },
+    "android": {
+      "package": "com.wastepin.app",
+      "versionCode": 1,
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/adaptive-icon.png",
+        "backgroundColor": "#2f6ef4"
+      },
+      "permissions": [
+        "ACCESS_FINE_LOCATION",
+        "ACCESS_COARSE_LOCATION",
+        "READ_EXTERNAL_STORAGE",
+        "WRITE_EXTERNAL_STORAGE",
+        "CAMERA"
+      ]
+    },
+    "plugins": [
+      ["expo-location", { "locationAlwaysAndWhenInUsePermission": "WastePin needs location to pin waste collection points." }],
+      ["expo-image-picker", { "photosPermission": "WastePin needs photo access to attach images to waste pins." }]
+    ]
   }
 }
