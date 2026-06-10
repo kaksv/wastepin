@@ -36,3 +36,4 @@ jobs:
         run: cd mobile && eas build --profile preview --platform android --non-interactive
         env:
           EAS_PROJECT_ROOT: ${{ github.workspace }}/mobile
+          EXPO_PROJECT_ID: af8b55d9-ec2f-4963-8500-bbb472097937

@@ -23,7 +23,7 @@
 - **Database Models**:
   - `User` (id, name, phone, role: GENERATOR|HAULER, reputation, points)
   - `WastePin` (id, title, description, latitude, longitude, wasteType, quantity, photos, status: OPEN|CLAIMED|COMPLETED, creator, claimedBy, timestamps)
-- **Seed Data**: 8 sample pins in Kampala/Nakawa with realistic waste images (Unsplash URLs by type: PLASTIC, GLASS, METAL, ORGANIC)
+- **Seed Data**: 8 sample pins in Kampala/Nakawa using `picsum.photos` URLs (replaced broken Unsplash URLs)
 - **Scripts**:
   - `npm run seed` - Create sample data
   - `npm run seed:clear` - Delete seeded sample pins
@@ -41,14 +41,13 @@
   - **OnboardingScreen**: Registration flow (preserved as accessible from Profile)
   - **HomeScreen / JobsScreen / JobDetailScreen / HaulerDashboardScreen**: Additional screens for job management
 - **Navigation**: Bottom-tab navigation (Explore, Map, New Pin, Profile) with Ionicons
-- **Styling**: Floating-card tab style, responsive layout
 - **Key Libraries**:
   - `react-navigation` (native-stack v6, bottom-tabs v6)
   - `react-native-maps` (map integration)
   - `expo-image-picker`, `expo-location` (device features)
   - `@react-native-async-storage/async-storage` (local user profile persistence)
 - **Persistence**: User profile (name, phone, role) stored in AsyncStorage
-- **UX**: Optional registration; welcome screen shows pins without login
+- **EAS Build**: ✅ Configured (see EAS Build Pipeline section below)
 
 ### 3. **Web Frontend** (Vite + React + Leaflet)
 - **Location**: `/web`
@@ -60,21 +59,9 @@
   - **Environment Variable**: `VITE_API_URL` (points to Render backend)
 - **Features**:
   - **Map View** (default): Interactive Leaflet map showing all waste pins from Kampala/Nakawa
-  - **List View**: Card-based grid of waste pins with:
-    - Main image (first photo)
-    - Clickable thumbnail row (up to 3 thumbnails)
-    - Pin details (title, description, status, waste type, quantity)
-    - Active thumbnail highlighting
+  - **List View**: Card-based grid of waste pins with main image, clickable thumbnails, pin details
   - **View Toggle**: Switch between Map and List views
-- **API Integration**:
-  - Fetches pins from backend via `VITE_API_URL`
-  - Parses JSON photo arrays safely
-  - Falls back to "No image available" if missing
-- **Image Display**:
-  - Main card image: 800x600 (via Unsplash)
-  - Thumbnails: 100x72px, clickable to switch main image
-  - Map popup includes main image (140x100px)
-- **Styling**: Responsive grid, Tailwind-inspired CSS, mobile-friendly
+  - **Image fallback**: Broken images hide gracefully instead of showing broken icon
 - **Local Development**:
   ```bash
   cd web
@@ -84,29 +71,74 @@
 
 ---
 
+## EAS Build Pipeline
+
+### Setup (✅ Complete)
+- **EAS config**: `mobile/eas.json` — three profiles:
+  - `development` — APK with dev client for local testing
+  - `preview` — APK for internal distribution/testing
+  - `production` — AAB for Play Store submission
+- **app.json**: Configured with:
+  - Android package: `com.wastepin.app`
+  - versionCode: 1
+  - Adaptive icon, splash screen, app icon all pointing to `mobile/assets/`
+  - Permissions: `ACCESS_FINE_LOCATION`, `ACCESS_COARSE_LOCATION`, `CAMERA`, storage
+  - Expo plugins for `expo-location` and `expo-image-picker`
+- **Assets**: Placeholder PNGs generated at correct sizes:
+  - `mobile/assets/adaptive-icon.png` — 1024×1024
+  - `mobile/assets/icon.png` — 1024×1024
+  - `mobile/assets/splash.png` — 1284×2778
+  - All solid blue (`#2f6ef4`) — replace with real designs before public release
+- **CI Workflow**: `.github/workflows/eas-build.yml`
+  - Triggers on any `v*` tag push (e.g. `git tag v1.0.1 && git push origin v1.0.1`)
+  - Runs `eas build --profile preview --platform android --non-interactive`
+  - Requires `EXPO_TOKEN` secret in GitHub repo settings
+
+### ⚠️ Pending — First APK Not Yet Confirmed
+- Tag `v1.0.0` was pushed to remote but pointed to an **old commit** (before EAS files were added)
+- The workflow may not have run correctly for that tag
+- **Next session action**: Fix and re-trigger the build by running:
+  ```bash
+  git tag -d v1.0.0
+  git push origin :refs/tags/v1.0.0
+  git tag v1.0.0
+  git push origin v1.0.0
+  ```
+- Before re-tagging, confirm:
+  1. `EXPO_TOKEN` secret exists in GitHub → Settings → Secrets and variables → Actions
+  2. Check GitHub → Actions tab for any failed/skipped runs from the previous tag
+
+### Where to Find the APK Once Built
+- [expo.dev](https://expo.dev) → your project → **Builds** → Download button
+- Or via the link in the GitHub Actions run logs
+- APK download link is valid for **30 days** on the free tier
+
+### Local Build (without CI)
+```bash
+cd mobile
+npm run build:preview   # APK
+npm run build:production  # AAB for Play Store
+```
+
+---
+
 ## Deployment Status
 
 ### Backend (Render)
-- **Database**: PostgreSQL on Render
 - **URL**: `https://wastepin-backend.onrender.com` (or your Render URL)
-- **Environment Variables**: `DATABASE_URL` (must be set correctly; format: `postgresql://user:pass@host:port/db?schema=public`)
+- **Status**: ✅ Deployed; seeded with 8 Kampala-based sample pins
+- **Environment Variables**: `DATABASE_URL` (format: `postgresql://user:pass@host:port/db?schema=public`)
 - **Build Command**: `npm install && npm run db:push`
 - **Start Command**: `npm start`
-- **Status**: ✅ Deployed; seeded with 8 Kampala-based sample pins
-- **Next**: Monitor logs for any P1012 Prisma errors; run `npm run seed` on Render if needed
 
 ### Web Frontend (Vercel)
 - **URL**: `https://wastepin-web.vercel.app` (or your Vercel URL)
-- **Root Directory**: `web` (must be set in Vercel Settings)
-- **Environment Variables**: 
-  - `VITE_API_URL` = your Render backend URL (e.g., `https://wastepin-backend.onrender.com`)
-- **Status**: ✅ Deployed; shows Kampala waste pins with realistic images
-- **Testing**: Visit web URL → toggle between Map and List views → click thumbnails to preview
+- **Status**: ✅ Deployed
+- **Environment Variables**: `VITE_API_URL` = Render backend URL
+- **Root Directory**: must be set to `web` in Vercel settings
 
-### Mobile App (Local Development)
-- **Status**: ✅ Running locally; ready to test on simulator or device
-- **Start**: `npx expo start` from `/mobile`
-- **API**: Points to `http://localhost:4000` or backend URL (configurable in app code)
+### Mobile App
+- **Status**: ✅ Runs locally; EAS pipeline configured but first successful APK build pending
 
 ---
 
@@ -114,26 +146,28 @@
 
 ✅ Backend API with CRUD operations for waste pins and users  
 ✅ PostgreSQL database with Prisma ORM  
-✅ Seed script with realistic waste images (Unsplash)  
+✅ Seed script with working placeholder images (picsum.photos)  
 ✅ Mobile app with map, pin creation, and profile management  
 ✅ Optional user registration (welcome screen first)  
 ✅ Web frontend with Leaflet map and list views  
-✅ Clickable image thumbnails in web list cards  
+✅ Clickable image thumbnails with graceful error fallback  
 ✅ Render + Vercel deployment infrastructure  
 ✅ CORS enabled for cross-origin requests  
-✅ Sample data for Kampala/Nakawa area  
+✅ EAS build pipeline configured (eas.json, app.json, CI workflow)  
+✅ Asset placeholders created (icon, adaptive-icon, splash)  
 
 ---
 
 ## To-Do / Next Steps
 
-- [ ] **Step 5**: Create APK build/test pipeline for mobile (Expo Build Service or EAS)
-- [ ] **Step 6**: Decide on Rails backend extension if needed (deferred for now)
-- [ ] **Future**: Cloudinary image upload integration (currently using Unsplash placeholders)
-- [ ] **Future**: Token/incentive system implementation
-- [ ] **Future**: Advanced reputation tracking
-- [ ] **Future**: Push notifications for claim events
-- [ ] **Future**: Multi-language support (Luganda, Swahili, etc.)
+- [ ] **Fix tag and confirm first APK build** (see EAS Pending section above)
+- [ ] **Replace asset placeholders** with real WastePin branding (icon.kitchen is a good tool)
+- [ ] **Cloudinary integration** — real user image uploads (currently using picsum placeholders)
+- [ ] **Token/incentive system** — DB fields exist (points, reputation), logic not yet implemented
+- [ ] **Advanced reputation tracking**
+- [ ] **Push notifications** for claim events
+- [ ] **Multi-language support** (Luganda, Swahili)
+- [ ] **Step 6**: Decide on Rails backend extension (deferred)
 
 ---
 
@@ -142,7 +176,7 @@
 ### Backend
 ```bash
 cd backend
-export DATABASE_URL="postgresql://user:pass@localhost:5432/wastepin?schema=public"  # or local SQLite for dev
+export DATABASE_URL="postgresql://user:pass@localhost:5432/wastepin?schema=public"
 npm install
 npx prisma migrate dev --name init
 npm run dev  # starts on http://localhost:4000
@@ -178,6 +212,9 @@ npm run dev  # opens http://localhost:5173
   - Entry point: `mobile/App.js`
   - User context: `mobile/UserContext.js`
   - Screens: `mobile/screens/*.js`
+  - EAS config: `mobile/eas.json`
+  - App config: `mobile/app.json`
+  - Assets: `mobile/assets/`
 
 - **Web**:
   - Entry point: `web/src/main.jsx`
@@ -185,8 +222,10 @@ npm run dev  # opens http://localhost:5173
   - API client: `web/src/api.js`
   - Map component: `web/src/MapView.jsx`
   - Styles: `web/src/styles.css`
-  - Vite config: `web/vite.config.js`
   - Vercel config: `web/vercel.json`
+
+- **CI/CD**:
+  - EAS build workflow: `.github/workflows/eas-build.yml`
 
 ---
 
@@ -230,11 +269,13 @@ WastePin
 
 1. **Database Connection**: Ensure `DATABASE_URL` is set before running backend commands.
 2. **CORS**: Backend has CORS enabled; web/mobile can access freely.
-3. **Image Sources**: Currently using Unsplash stock photos; upgrade to Cloudinary for real user uploads later.
+3. **Image Sources**: Using `picsum.photos` placeholders; upgrade to Cloudinary for real user uploads.
 4. **Vercel Root**: Web frontend must have `web` set as root directory in Vercel settings.
 5. **Render Build**: Use `npm run db:push` on first deploy to avoid SQLite migration issues.
-6. **Seed Data**: Sample pins are in Kampala (lat ~0.33-0.35, lng ~32.61-32.63); can be refreshed with `npm run seed`.
+6. **Seed Data**: Sample pins are in Kampala (lat ~0.33-0.35, lng ~32.61-32.63); refresh with `npm run seed:clear && npm run seed`.
 7. **Mobile Metro Issues**: If `EMFILE: too many open files` occurs, use `npx expo start --max-workers 1` or install Watchman.
+8. **EAS Free Tier**: 30 build minutes/month — use tag-based builds to conserve quota.
+9. **APK expiry**: EAS-hosted APK download links expire after 30 days on free tier.
 
 ---
 
@@ -244,4 +285,4 @@ All code is version-controlled. Push updates before deployments.
 ---
 
 **Last Updated**: 2026-06-07  
-**Project Status**: MVP-ready for Kampala waste collection
+**Project Status**: MVP deployed; APK pipeline configured, first successful build pending
