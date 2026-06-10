@@ -33,5 +33,6 @@ jobs:
           packager: npm
 
       - name: Build APK
-        run: eas build --profile preview --platform android --non-interactive
-        working-directory: mobile
+        run: cd mobile && eas build --profile preview --platform android --non-interactive
+        env:
+          EAS_PROJECT_ROOT: ${{ github.workspace }}/mobile
