@@ -1,4 +1,5 @@
 import React, { useContext } from "react";
+import { View, ActivityIndicator } from "react-native";
 import { NavigationContainer } from "@react-navigation/native";
 import { createNativeStackNavigator } from "@react-navigation/native-stack";
 import { createBottomTabNavigator } from "@react-navigation/bottom-tabs";
@@ -85,7 +86,11 @@ function AppRoutes() {
   const { initialized } = useContext(UserContext);
 
   if (!initialized) {
-    return null;
+    return (
+      <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+        <ActivityIndicator size="large" color="#2f6ef4" />
+      </View>
+    );
   }
 
   return (

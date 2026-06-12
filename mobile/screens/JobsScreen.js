@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { View, Text, FlatList, TouchableOpacity, StyleSheet, ActivityIndicator } from "react-native";
+import { View, Text, FlatList, TouchableOpacity, StyleSheet, ActivityIndicator, Alert } from "react-native";
 import { fetchPins } from "../api";
 
 export default function JobsScreen({ navigation }) {
@@ -8,9 +8,14 @@ export default function JobsScreen({ navigation }) {
 
   useEffect(() => {
     (async () => {
-      const pins = await fetchPins();
-      setJobs(pins);
-      setLoading(false);
+      try {
+        const pins = await fetchPins();
+        setJobs(Array.isArray(pins) ? pins : []);
+      } catch (err) {
+        Alert.alert("Error", err.message || "Unable to load jobs.");
+      } finally {
+        setLoading(false);
+      }
     })();
   }, []);
 
