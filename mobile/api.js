@@ -1,4 +1,4 @@
-const API_BASE = "http://localhost:4000/api";
+const API_BASE = "https://wastepin-backend.onrender.com/api";
 
 export async function fetchPins(status) {
   const query = status ? `?status=${status}` : "";
