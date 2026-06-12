@@ -1,18 +1,11 @@
-import React, { useEffect, useState, useContext, useRef } from "react";
+import React, { useEffect, useState, useContext } from "react";
 import { View, Text, Button, FlatList, StyleSheet, ActivityIndicator, Alert, ScrollView } from "react-native";
-import MapView, { Marker, Polyline, UrlTile } from "react-native-maps";
+import OsmMap from "../components/OsmMap";
 import * as Location from "expo-location";
 import { useIsFocused } from "@react-navigation/native";
 import { UserContext } from "../UserContext";
 import { fetchUser, fetchAssignedPins, completePin } from "../api";
 import { optimizeRoute, estimateDuration, calculateDistance } from "../utils/routeOptimization";
-
-const KAMPALA_CENTER = {
-  latitude: 0.3476,
-  longitude: 32.5825,
-  latitudeDelta: 0.05,
-  longitudeDelta: 0.05,
-};
 
 export default function HaulerDashboardScreen({ navigation }) {
   const { userId } = useContext(UserContext);
@@ -21,9 +14,7 @@ export default function HaulerDashboardScreen({ navigation }) {
   const [optimizedJobs, setOptimizedJobs] = useState([]);
   const [loading, setLoading] = useState(true);
   const [currentLocation, setCurrentLocation] = useState(null);
-  const [region, setRegion] = useState(KAMPALA_CENTER);
   const [routeStats, setRouteStats] = useState(null);
-  const mapRef = useRef(null);
   const isFocused = useIsFocused();
 
   const loadData = async () => {
@@ -47,7 +38,6 @@ export default function HaulerDashboardScreen({ navigation }) {
           longitude: current.coords.longitude,
         };
         setCurrentLocation(loc);
-        setRegion({ ...loc, latitudeDelta: 0.05, longitudeDelta: 0.05 });
 
         // Optimize route
         if (assignedJobs.length > 0) {
@@ -81,18 +71,7 @@ export default function HaulerDashboardScreen({ navigation }) {
     }
   };
 
-  const fitToRoute = () => {
-    if (mapRef.current && optimizedJobs.length > 0) {
-      const coordinates = currentLocation
-        ? [currentLocation, ...optimizedJobs.map((j) => ({ latitude: j.latitude, longitude: j.longitude }))]
-        : optimizedJobs.map((j) => ({ latitude: j.latitude, longitude: j.longitude }));
-
-      mapRef.current.fitToCoordinates(coordinates, {
-        edgePadding: { top: 50, right: 50, bottom: 50, left: 50 },
-        animated: true,
-      });
-    }
-  };
+  const fitToRoute = () => {};
 
   if (loading) {
     return (
@@ -102,9 +81,6 @@ export default function HaulerDashboardScreen({ navigation }) {
     );
   }
 
-  const polylineCoords = currentLocation
-    ? [currentLocation, ...optimizedJobs.map((j) => ({ latitude: j.latitude, longitude: j.longitude }))]
-    : optimizedJobs.map((j) => ({ latitude: j.latitude, longitude: j.longitude }));
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
@@ -128,29 +104,7 @@ export default function HaulerDashboardScreen({ navigation }) {
       )}
 
       <Text style={styles.mapLabel}>Job Map & Route</Text>
-      <MapView
-        ref={mapRef}
-        style={styles.map}
-        region={region}
-        onRegionChangeComplete={setRegion}
-        showsUserLocation
-        mapType="none"
-      >
-        <UrlTile urlTemplate="https://tile.openstreetmap.org/{z}/{x}/{y}.png" maximumZ={19} />
-        {currentLocation && <Marker coordinate={currentLocation} title="Your Location" pinColor="blue" />}
-        {optimizedJobs.map((job, idx) => (
-          <Marker
-            key={job.id}
-            coordinate={{ latitude: job.latitude, longitude: job.longitude }}
-            title={`${idx + 1}. ${job.title}`}
-            description={job.wasteType}
-            pinColor={job.status === "CLAIMED" ? "red" : "green"}
-          />
-        ))}
-        {polylineCoords.length > 1 && (
-          <Polyline coordinates={polylineCoords} strokeColor="#2f95dc" strokeWidth={3} lineDashPattern={[0]} />
-        )}
-      </MapView>
+      <OsmMap pins={optimizedJobs} height={280} />
 
       <Button title="Fit Route to Screen" onPress={fitToRoute} />
 

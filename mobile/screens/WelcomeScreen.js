@@ -8,7 +8,7 @@ import {
   ActivityIndicator,
   StyleSheet,
 } from "react-native";
-import MapView, { Marker, UrlTile } from "react-native-maps";
+import OsmMap from "../components/OsmMap";
 import { UserContext } from "../UserContext";
 import { fetchPins } from "../api";
 
@@ -90,22 +90,7 @@ export default function WelcomeScreen({ navigation }) {
         </View>
       ) : (
         <>
-          {mapRegion ? (
-            <View style={styles.mapWrapper}>
-              <MapView style={styles.map} initialRegion={mapRegion} mapType="none">
-                <UrlTile urlTemplate="https://tile.openstreetmap.org/{z}/{x}/{y}.png" maximumZ={19} />
-                {pins.map((pin) => (
-                  <Marker
-                    key={pin.id}
-                    coordinate={{ latitude: pin.latitude, longitude: pin.longitude }}
-                    title={pin.title}
-                    description={`${pin.wasteType} · ${pin.quantity}`}
-                    onPress={() => navigation.navigate("JobDetail", { pin })}
-                  />
-                ))}
-              </MapView>
-            </View>
-          ) : null}
+          <OsmMap pins={pins} height={200} />
 
           <FlatList
             data={pins}
