@@ -22,10 +22,11 @@ export default function OnboardingScreen({ navigation }) {
 
     try {
       const user = await createUser({ name, phone, role: selectedRole });
+      if (!user || !user.id) throw new Error("Invalid response from server.");
       await setProfile({ role: selectedRole, userId: user.id, name, phone });
       navigation.replace("Home");
     } catch (error) {
-      Alert.alert("Error", "Unable to create your profile. Please try again.");
+      Alert.alert("Error", error.message || "Unable to create your profile. Please try again.");
     }
   };
 

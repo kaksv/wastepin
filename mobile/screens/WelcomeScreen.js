@@ -16,6 +16,7 @@ export default function WelcomeScreen({ navigation }) {
   const { role, name, phone } = useContext(UserContext);
   const [pins, setPins] = useState([]);
   const [loading, setLoading] = useState(true);
+  const [error, setError] = useState(null);
 
   const mapRegion = pins.length
     ? {
@@ -30,11 +31,12 @@ export default function WelcomeScreen({ navigation }) {
     let mounted = true;
     (async () => {
       try {
+        setError(null);
         const fetchedPins = await fetchPins();
         if (!mounted) return;
         setPins(fetchedPins);
-      } catch (error) {
-        console.warn("Unable to load pins", error);
+      } catch (err) {
+        if (mounted) setError(err.message || "Unable to load pins.");
       } finally {
         if (mounted) setLoading(false);
       }
@@ -75,6 +77,12 @@ export default function WelcomeScreen({ navigation }) {
       {loading ? (
         <View style={styles.loadingContainer}>
           <ActivityIndicator size="large" />
+          <Text style={styles.emptyText}>Connecting to server…</Text>
+        </View>
+      ) : error ? (
+        <View style={styles.emptyContainer}>
+          <Text style={[styles.emptyText, { color: "#c0392b" }]}>{error}</Text>
+          <Button title="Retry" onPress={() => { setLoading(true); setError(null); fetchPins().then(setPins).catch(err => setError(err.message)).finally(() => setLoading(false)); }} />
         </View>
       ) : pins.length === 0 ? (
         <View style={styles.emptyContainer}>
