@@ -2,11 +2,10 @@
   "name": "wastepin-mobile",
   "version": "0.1.0",
   "private": true,
-  "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start": "expo start",
-    "android": "expo start --android",
-    "ios": "expo start --ios",
+    "start": "expo start --dev-client",
+    "android": "expo run:android",
+    "ios": "expo run:ios",
     "web": "expo start --web",
     "build:preview": "eas build --profile preview --platform android",
     "build:production": "eas build --profile production --platform android"
@@ -16,7 +15,7 @@
     "@react-navigation/bottom-tabs": "^6.6.1",
     "@react-navigation/native": "6.1.7",
     "@react-navigation/native-stack": "6.11.0",
-    "expo": "^48.0.0",
+    "expo": "~48.0.21",
     "expo-image-picker": "~14.1.1",
     "expo-location": "~15.1.1",
     "expo-status-bar": "~1.4.4",
@@ -25,6 +24,10 @@
     "react-native-gesture-handler": "~2.9.0",
     "react-native-safe-area-context": "4.5.0",
     "react-native-screens": "~3.20.0",
-    "react-native-webview": "~12.0.0"
+    "react-native-webview": "11.26.1",
+    "expo-splash-screen": "~0.18.2"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.20.0"
   }
 }
