@@ -1,6 +1,6 @@
 import React, { useEffect, useState, useContext, useRef } from "react";
 import { View, Text, Button, FlatList, StyleSheet, ActivityIndicator, Alert, ScrollView } from "react-native";
-import MapView, { Marker, Polyline } from "react-native-maps";
+import MapView, { Marker, Polyline, UrlTile } from "react-native-maps";
 import * as Location from "expo-location";
 import { useIsFocused } from "@react-navigation/native";
 import { UserContext } from "../UserContext";
@@ -134,7 +134,9 @@ export default function HaulerDashboardScreen({ navigation }) {
         region={region}
         onRegionChangeComplete={setRegion}
         showsUserLocation
+        mapType="none"
       >
+        <UrlTile urlTemplate="https://tile.openstreetmap.org/{z}/{x}/{y}.png" maximumZ={19} />
         {currentLocation && <Marker coordinate={currentLocation} title="Your Location" pinColor="blue" />}
         {optimizedJobs.map((job, idx) => (
           <Marker

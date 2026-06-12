@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from "react";
 import { View, Text, StyleSheet, ActivityIndicator } from "react-native";
-import MapView, { Marker } from "react-native-maps";
+import MapView, { Marker, UrlTile } from "react-native-maps";
 import { fetchPins } from "../api";
 
 export default function MapScreen({ navigation }) {
@@ -58,7 +58,8 @@ export default function MapScreen({ navigation }) {
 
   return (
     <View style={styles.container}>
-      <MapView style={styles.map} initialRegion={mapRegion}>
+      <MapView style={styles.map} initialRegion={mapRegion} mapType="none">
+        <UrlTile urlTemplate="https://tile.openstreetmap.org/{z}/{x}/{y}.png" maximumZ={19} />
         {pins.map((pin) => (
           <Marker
             key={pin.id}

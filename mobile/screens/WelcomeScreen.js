@@ -8,7 +8,7 @@ import {
   ActivityIndicator,
   StyleSheet,
 } from "react-native";
-import MapView, { Marker } from "react-native-maps";
+import MapView, { Marker, UrlTile } from "react-native-maps";
 import { UserContext } from "../UserContext";
 import { fetchPins } from "../api";
 
@@ -92,7 +92,8 @@ export default function WelcomeScreen({ navigation }) {
         <>
           {mapRegion ? (
             <View style={styles.mapWrapper}>
-              <MapView style={styles.map} initialRegion={mapRegion}>
+              <MapView style={styles.map} initialRegion={mapRegion} mapType="none">
+                <UrlTile urlTemplate="https://tile.openstreetmap.org/{z}/{x}/{y}.png" maximumZ={19} />
                 {pins.map((pin) => (
                   <Marker
                     key={pin.id}
